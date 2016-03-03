@@ -30,7 +30,6 @@ if id == "e":
         let.apend(associations.find(message[y])
 
 
-
 elif id=="d":
     dcrpt=input("Message: ")
     key=str(input("Key: "))
