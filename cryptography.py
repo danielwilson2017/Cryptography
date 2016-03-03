@@ -13,6 +13,17 @@ associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .
 let = []
 other = []
 
-id=input("Enter e to encrypt, d to decrypt, or q to quit")
+id=input("Enter e to encrypt, d to decrypt, or q to quit: ")
+if id not in('e', 'd', 'q'):
+    print("Did not understand command, try again")
+
 if id = "e":
-    
+    message=input("Message: ")
+    key=str(input("Key: "))
+    l=len(message)
+    k=len(key)
+    for x in range(0, l):
+        let.apend(associations.find(message[x])
+elif id = "d":
+    dcrpt=input("Message: ")
+    key=str(input("Key: "))
