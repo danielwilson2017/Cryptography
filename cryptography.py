@@ -16,6 +16,8 @@ other = []
 id=input("Enter e to encrypt, d to decrypt, or q to quit: ")
 if id not in('e', 'd', 'q'):
     print("Did not understand command, try again")
+    id=input("Enter e to encrypt, d to decrypt, or q to quit: ")
+
 
 if id == "e":
     message=input("Message: ")
@@ -24,12 +26,13 @@ if id == "e":
     k=len(key)
     for x in range(0, l):
         let.apend(associations.find(message[x])
-    for 
-    
-'''
-elif id == "d":
+    for y
+
+
+
+elif id=="d":
     dcrpt=input("Message: ")
     key=str(input("Key: "))
 elif id == "q":
     print("Goodbye!")
-'''
+    '''
