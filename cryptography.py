@@ -26,7 +26,8 @@ if id == "e":
     k=len(key)
     for x in range(0, l):
         let.apend(associations.find(message[x])
-    for y
+    for y in range(0, k):
+        let.apend(associations.find(message[y])
 
 
 
@@ -35,4 +36,3 @@ elif id=="d":
     key=str(input("Key: "))
 elif id == "q":
     print("Goodbye!")
-    '''
