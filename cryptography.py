@@ -24,8 +24,12 @@ if id == "e":
     k=len(key)
     for x in range(0, l):
         let.apend(associations.find(message[x])
+    for 
+    
+'''
 elif id == "d":
     dcrpt=input("Message: ")
     key=str(input("Key: "))
 elif id == "q":
     print("Goodbye!")
+'''
