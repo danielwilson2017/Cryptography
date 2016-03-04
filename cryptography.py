@@ -19,8 +19,19 @@ def encrypt(P):
     s=0
     p=[]
     for x in P:
-        p.append(associations.find())
-    
+        p.append(associations.find(x))
+    print(p)
+    k=[]
+    for x in key:
+        K.append((p[z]+K[z$len(K)]))
+        z=z+1
+    print(k)
+    z=0
+    C=[]
+    while z>len(k):
+        C.append(associations[k[z]])
+        z=z+1
+    print
 
 
 
