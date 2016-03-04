@@ -19,7 +19,7 @@ def encrypt(P):
     s=0
     p=[]
     for x in P:
-        p.append(associations.find(x))
+        p.append(associations.index(x))
     print(p)
     c=[]
     for x in key:
