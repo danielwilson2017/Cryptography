@@ -32,6 +32,12 @@ def encrypt(P):
         C.append(associations[k[z]])
         z=z+1
     print(C)
+    
+    
+    for x in C:
+        print(x,end="")
+        print()
+
 
 def decrypt(Z):
     key=input("Key: ")
