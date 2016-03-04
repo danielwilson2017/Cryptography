@@ -52,7 +52,6 @@ if id not in('e', 'd', 'q'):
     print("Did not understand command, try again")
     id=input("Enter e to encrypt, d to decrypt, or q to quit: ")
 
-'''
 if id == "e":
     message=str(input("Message: "))
     key=input("Key: ")
