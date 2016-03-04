@@ -56,4 +56,6 @@ def request_answer():
         return()
     else:
         print("Did not understand command, try again.")
-        request_answer
+        request_answer()
+        
+request_answer()
