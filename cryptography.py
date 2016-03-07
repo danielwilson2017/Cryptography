@@ -23,13 +23,13 @@ def encrypt(P):
     print(p)
     c=[]
     for x in key:
-        c.append((p[z]+c[z%len(c)]))
+        c.append(associations.index(x))
         z=z+1
     print(c)
     z=0
     C=[]
-    while z>len(c):
-        C.append(associations[c[z]])
+    while z<len(c):
+        C.append(p[x]+c[z%len(C)]%len(associations))
         z=z+1
     print(C)
     
