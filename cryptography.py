@@ -16,14 +16,14 @@ other = []
 def encrypt(P):
     key=input("Key: ")
     P=list(P)
-    s=0
+    z=0
     p=[]
     for x in P:
         p.append(associations.index(x))
     print(p)
     c=[]
     for x in key:
-        c.append((p[s]+c[s%len(c)]))
+        c.append((p[z]+c[z%len(c)]))
         z=z+1
     print(c)
     z=0
