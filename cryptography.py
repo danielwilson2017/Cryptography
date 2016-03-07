@@ -25,26 +25,28 @@ def encrypt(P):
     for x in key:
         c.append(associations.index(x))
         z=z+1
-    print(c)
-    z=0
+    #print(c)
     C=[]
     while z<len(c):
-        C.append(p[x]+c[z%len(C)]%len(associations))
+        C.append((p[x]+c[z%len(C)]%len(associations))
         z=z+1
     #print(C)
     z=0
     K=[]
-    while z<len(c):
+    while z<len(p):
         K.append(associations[c[z]])
         z=z+1
-    print(K)
-    
-    
-    
+    #print(K)
+    s=""
+    for x in K:
+        s=s+x
+    print(s)
+    return(s)
+    '''
     for x in C:
         print(x,end="")
         print()
-
+'''
 
 def decrypt(Z):
     key=input("Key: ")
