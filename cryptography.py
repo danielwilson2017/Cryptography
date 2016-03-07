@@ -37,7 +37,7 @@ def encrypt(P):
     while z<len(c):
         K.append(associations[c[z]])
         z=z+1
-    
+    print(K)
     
     
     
