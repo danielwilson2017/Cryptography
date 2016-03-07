@@ -23,7 +23,7 @@ def encrypt(P):
     print(p)
     c=[]
     for x in key:
-        c.append((p[z]+c[z%len(c)]))
+        c.append((p[s]+c[s%len(c)]))
         z=z+1
     print(c)
     z=0
