@@ -84,13 +84,9 @@ def decrypt(Z):
     for x in C:
         print(x,end="")
     print("")
-   
-   
-   
-   
 
 def request_answer():
-    id=input("Enter e to encrypt, d to decrypt, or q to quit")
+    id=input("Enter e to encrypt, d to decrypt, or q to quit: ")
     if id == "e":
         mes=str(input("Message: "))
         encrypt(mes)
