@@ -39,7 +39,7 @@ def encrypt(P):
         z=z+1
     print(C)
     s=""
-    
+    '''
     for x in K:
         s=s+x
     print(s)
@@ -48,7 +48,7 @@ def encrypt(P):
     for x in C:
         print(x,end="")
         print()
-
+'''
 def decrypt(Z):
     key=input("Key: ")
     Z=list(Z)
