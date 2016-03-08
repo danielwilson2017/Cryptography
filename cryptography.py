@@ -28,8 +28,8 @@ def encrypt(P):
     #print(c)
     c=[]
     q=0
-    while z<len(K):
-        c.append((p[x]+K[z%len(K)]%len(associations)))
+    while q<len(K):
+        c.append((p[q]+K[q%len(K)]%len(associations)))
         q=q+1
     #print(C)
     z=0
