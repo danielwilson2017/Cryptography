@@ -34,10 +34,10 @@ def encrypt(P):
     print(c)
     z=0
     C=[]
-    while z<len(p):
-        C.append(associations[K[z]])
+    while z<len(c):
+        C.append(associations[c[z]])
         z=z+1
-    #print(K)
+    print(C)
     s=""
     
     for x in K:
