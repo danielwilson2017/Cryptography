@@ -94,8 +94,11 @@ def request_answer():
     if id == "e":
         mes=str(input("Message: "))
         encrypt(mes)
+        request_answer()
     elif id == "d":
         mes=str(input("Message: "))
+        decrypt(mes)
+        request_answer()
     elif id == "q":
         print("Goodbye!")
         return()
