@@ -43,7 +43,7 @@ def encrypt(P):
         s=s+x
     print(s)
     return(s)
-    '''
+    
     for x in C:
         print(x,end="")
         print()
@@ -51,7 +51,7 @@ def encrypt(P):
 def decrypt(Z):
     key=input("Key: ")
     Z=list(Z)
-    '''
+    
 
 def request_answer():
     id=input("Enter e to encrypt, d to decrypt, or q to quit")
