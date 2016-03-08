@@ -50,11 +50,11 @@ def encrypt(P):
     print("")
 
 def decrypt(Z):
-   key=input("Key: ")
-    P=list(P)
+    key=input("Key: ")
+    Z=list(Z)
     z=0
     p=[]
-    for x in P:
+    for x in Z:
         p.append(associations.index(x))
     #print(p)
     K=[]
@@ -84,7 +84,10 @@ def decrypt(Z):
     for x in C:
         print(x,end="")
     print("")
-    
+   
+   
+   
+   
 
 def request_answer():
     id=input("Enter e to encrypt, d to decrypt, or q to quit")
